@@ -1,0 +1,77 @@
+jk1947/
+├── .gitignore
+├── README.md
+├── package.json               # (If using Node.js / Tailwind / build tools)
+├── tailwind.config.js         # (Recommended for modern styling tokens)
+│
+├── assets/                    # Raw source assets (pre-build)
+│   ├── css/
+│   │   └── main.css           # Custom styles & design token overrides
+│   ├── js/
+│   │   ├── map.js             # Mapbox / Leaflet initialization & time-slider logic
+│   │   ├── timeline.js        # Dual-axis interactive timeline controller
+│   │   └── search.js          # Client-side Lunr.js / Fuse.js search implementation
+│   ├── images/
+│   │   ├── heroes/            # Restored high-res archival portraits & photos
+│   │   ├── maps/              # Scanned 1947 Survey of India raster maps for MapWarper
+│   │   └── symbols/           # NATO APP-6 / MIL-STD-2525 SVG military unit icons
+│   └── documents/             # PDF primary source despatches & telegrams
+│
+├── content/                   # Structured content files (Markdown / YAML)
+│   ├── chapters/              # The 31-part master narrative series
+│   │   ├── part-01.md
+│   │   ├── ...
+│   │   └── part-31.md
+│   ├── battles/               # Individual 21-point battle dossiers
+│   │   ├── stand-at-uri.md
+│   │   ├── battle-of-zojila.md
+│   │   └── ...
+│   └── orbat/                 # Order of battle hierarchical markdown/JSON data
+│
+└── public/                    # Compiled output directory (generated for deployment)
+    ├── index.html             # Homepage command center
+    ├── chronology/
+    │   └── index.html         # Day-by-day searchable database
+    ├── battles/
+    │   └── index.html         # Master directory of major engagements
+    ├── map/
+    │   └── index.html         # Full-screen interactive campaign map
+    ├── theatres/
+    │   ├── index.html
+    │   ├── jammu/
+    │   │   └── index.html
+    │   ├── kashmir-valley/
+    │   │   └── index.html
+    │   ├── high-himalayas/
+    │   │   └── index.html
+    │   └── northern-frontier/
+    │       └── index.html
+    ├── orbat/
+    │   └── index.html         # Interactive tree hierarchy
+    ├── commanders/
+    │   └── index.html         # Biographical database
+    ├── units/
+    │   └── index.html         # Regimental operational histories
+    ├── weapons/
+    │   └── index.html         # Technical profiles (arms & armor)
+    ├── narratives/
+    │   ├── index.html
+    │   ├── indian/
+    │   ├── pakistani/
+    │   └── british/
+    - un-resolutions/
+    │   └── index.html
+    ├── sources/
+    │   └── index.html         # Primary source repository
+    ├── photos/
+    │   └── index.html         # Historical photograph archive
+    ├── newspapers/
+    │   └── index.html         # Press archives (1947–1948 scans)
+    ├── fact-check/
+    │   └── index.html         # Myth-busting & evidence ledger
+    ├── statistics/
+    │   └── index.html         # War in numbers & interactive charts
+    ├── glossary/
+    │   └── index.html         # Historical terminology dictionary
+    └── about/
+        └── index.html         # Manifesto, methodology & roadmap
